@@ -13,7 +13,7 @@
 :root {
     --cor-header: #260209;
     --cor-main: #400211b9;
-    --cor-section: #A066F2;
+    --cor-section: #a066f26e;
     --cor-article: #F2BC8D;
     --cor-footer: #A67356;
     --fonte001: "Playwrite NG Modern", cursive;
@@ -30,14 +30,30 @@ body {
 
 }
 
+header {
+    background-color: var(--cor-header);
+    padding: 28px;
+    margin-bottom: -10px;
+}
+
+header h1 {
+    line-height: 66px;
+    max-width: 320px;
+    text-shadow: 2px 1px 9px rgba(0, 0, 0, 0.562);
+}
+
 main {
-    background-color: var(--cor-main);
-    color: white;
-    max-width: 360px;
+    background-color: rgba(255, 255, 255, 0.932);
+    color: black;
+    max-width: 400px;
     margin: 10px;
     padding: 14px;
     margin-left: auto;
     margin-right: auto;
+}
+
+main h1 {
+    text-align: center;
 }
 
 h1 {
@@ -51,4 +67,32 @@ p {
     line-height: 28px;
     padding: 15px;
     margin-top: 10px;
+}
+
+article.first {
+    border: 1px solid black;
+    border-radius: 10px;
+    box-shadow: 2px 1px 4px rgba(0, 0, 0, 0.295);
+    margin-bottom: 8px;
+    padding: 7px;
+}
+
+article.second {
+    background-color: var(--cor-section);
+    color: rgba(0, 0, 0, 0.795);
+    border-radius: 9px;
+    margin: 31px -14px 32px -14px;
+    padding: 20px 8px 15px 8px;
+}
+
+article.second h1 {
+    background-color: var(--cor-header);
+    margin: -19px -8px 20px -8px;
+    padding: 12px 35px 20px 35px;
+    border-top-left-radius: 9px;
+    border-top-right-radius: 9px;
+}
+
+article.second p {
+    line-height: 30px;
 }
