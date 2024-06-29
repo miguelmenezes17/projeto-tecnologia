@@ -1,0 +1,16 @@
+@charset "UTF-8";
+
+@media screen and (max-width: 428px) {
+    menu {
+        display: flow-root;
+        margin: 0px auto -15px auto;
+    
+        /*
+        margin-top: 0px;
+        margin-left: auto;
+        margin-bottom: -28px;
+        margin-right: auto;
+        */
+    
+    }
+}
