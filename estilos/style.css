@@ -250,7 +250,7 @@ main > article.first > div.foto > picture {
 
 div.vid {
     background-color: #5a1422;
-    margin: 0px -19px -50px -26px;
+    margin: 0px -19px 15px -26px;
     padding: 20px;
     padding-bottom: 57.5%;
     position: relative;
