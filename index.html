@@ -4,19 +4,22 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Tecnologia em 2024 | Devman </title>
+    <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" rel="stylesheet" />
     <link rel="stylesheet" href="estilos/style.css">
     <link rel="stylesheet" href="estils/mediaqueries.css">
 </head>
-<body>
+<body onresize="mudouTamanho()">
     <header>
         <h1>Avanços em Inteligência Artificial (IA) e Aprendizado de Máquina</h1>
-        <menu>
-            <li><a href="#">Artigos</a></li>
-            <li><a href="#">Sobre</a></li>
-            <li><a href="#">Usuário</a></li>
-            <li><a href="#">Sugestões</a></li>
-            <li><a href="#">Dúvidas</a></li>
-        </menu>
+        <span class="material-symbols-outlined" id="burguer" onclick="clickMenu()">Menu</span>
+            <menu id="itens">
+                <li><a href="#">Artigos</a></li>
+                <li><a href="#">Sobre</a></li>
+                <li><a href="#">Usuário</a></li>
+                <li><a href="#">Sugestões</a></li>
+                <li><a href="#">Dúvidas</a></li>
+            </menu>
+        
     </header>
     <main>
         <article class="first">
@@ -24,14 +27,20 @@
 
             <p>O setor da saúde está a testemunhar uma transformação significativa em 2024 com a adoção generalizada da IA ​​para diagnóstico e tratamento[5]. <strong>A Inteligência Artificial está revolucionando a saúde ao oferecer soluções de diagnóstico especializadas, introduzindo IA generativa nas rotinas médicas e aproveitando a Realidade Virtual e Aumentada para melhorar o atendimento ao paciente[6].</strong> Empresas como a PickCells são pioneiras no uso de IA na área da saúde, acelerando processos de diagnóstico e otimizando as operações de saúde[7]. A incorporação da IA ​​nos cuidados de saúde não só melhora a precisão e a eficiência dos diagnósticos, mas também melhora os resultados dos pacientes e a qualidade geral dos cuidados[8].</p>
 
+            <div class="foto">
+                <picture>
+                    <source media="(min-width: )" srcset="">
+                    <img src="imagens/tecnology004-320x213.jpg" alt="">
+                </picture>
+            </div>
+
             <p>Os veículos e transportes autónomos estão a passar por uma revolução em 2024 com a integração da Inteligência Artificial (IA) nos sistemas dos veículos[9]. A IA está desempenhando um papel crucial na definição do futuro dos transportes, permitindo que veículos autônomos naveguem, se comuniquem e operem de forma eficiente e segura[10]. <em>As empresas estão desenvolvendo plataformas completas de desenvolvimento de veículos autônomos que dependem de IA para criar sistemas de transporte mais seguros e eficientes[11].</em> O potencial dos veículos autónomos alimentados por IA para melhorar a eficiência dos sistemas de transporte e aumentar a segurança rodoviária está a impulsionar a inovação e a remodelar o futuro dos transportes[12].</p>
+
         </article>
         <article class="second">
             <h1>Desenvolvimento da Tecnologia 5G e Internet das Coisas (IoT)</h1>
 
             <p>O desenvolvimento e a <a href="">expansão das redes 5G</a> representam um marco significativo no avanço tecnológico, prometendo velocidades mais rápidas, menor latência e maior largura de banda[13]. <strong>Relatórios recentes destacaram o progresso na tecnologia 5G, com menções ao 5G Advanced como o próximo passo na evolução das redes móveis[14].</strong> Em países como o Brasil, o crescimento da velocidade 5G tem sido notável, mostrando as melhorias tangíveis em conectividade e comunicação que esta tecnologia traz[15][16]. À medida que o 5G continua a expandir-se globalmente, o potencial para mudanças transformadoras em vários setores torna-se cada vez mais evidente, preparando o terreno para experiências e inovações digitais melhoradas.</p>
-
-            <div class="imagem-tec"></div>
 
             <p>A integração da tecnologia da <a href="">Internet das Coisas (IoT)</a> em casas e cidades inteligentes está a remodelar a forma como interagimos com os nossos ambientes[17]. Com o advento de redes mais rápidas e fiáveis ​​como o 5G, espera-se que a proliferação de dispositivos IoT em casas e cidades inteligentes cresça exponencialmente[18]. Este crescimento permite uma ampla gama de aplicações, desde sistemas de automação residencial inteligentes que aproveitam a tecnologia eSIM para maior conveniência e eficiência até a implementação de monitoramento e controle remoto de dispositivos[19][20]. A convergência do 5G e da IoT não só promove uma melhor conectividade, mas também abre novas possibilidades para a criação de produtos e serviços personalizados, otimizando operações e impulsionando a inovação[21].</p>
 
@@ -42,6 +51,10 @@
             <h1>Tecnologias emergentes em 2024</h1>
 
             <p>A <a href="">Realidade Virtual (VR)</a> e a <a href="">Realidade Aumentada (AR)</a> surgiram como tecnologias transformadoras em 2024, oferecendo soluções inovadoras que redefinem a forma como os utilizadores interagem com o mundo digital[25]. Essas tecnologias se expandiram além do entretenimento e dos jogos, encontrando aplicações em diversos setores, como: - Educação - Assistência médica - Varejo - Imobiliária A Realidade Virtual (VR) e a Realidade Aumentada (AR) estão criando soluções mais eficientes e personalizadas, proporcionando experiências imersivas e interativas[26]. As capacidades das tecnologias AR e VR estão na vanguarda do aprimoramento de simulações de treinamento, colaboração remota e experiências do cliente, demonstrando seu potencial para revolucionar vários setores[27]. À medida que estas tecnologias continuam a avançar, o seu impacto na formação do futuro das experiências dos utilizadores e das práticas da indústria é inegável[28][29].</p>
+
+            <div class="vid">
+                <iframe width="390" height="270" src="https://www.youtube.com/embed/0PrOA2JK6GQ?si=-wL5bXk6KRs9zgIR" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+            </div>
 
             <p>A computação quântica se destaca como uma tecnologia proeminente em 2024, prometendo desbloquear novos horizontes em descobertas científicas, otimização operacional e inovação de produtos[30]. A escalabilidade e o poder de processamento da computação quântica têm o potencial de revolucionar vários setores, incluindo: - Assistência médica - Finança - Logística - Ciência de materiais Ao contrário dos métodos de computação tradicionais, a computação quântica aproveita fenômenos da mecânica quântica para realizar cálculos complexos com velocidades e eficiências incomparáveis[31]. <strong>As implicações da computação quântica na aceleração da investigação, no reforço da cibersegurança e na viabilização de avanços na inteligência artificial estão a gerar um interesse e um investimento significativos nesta tecnologia de ponta[32].</strong></p>
 
@@ -142,11 +155,28 @@
             </p>
         </section>
     </main>
-    
     <footer>
         <p></p>
     </footer>
+    <script>
+        function mudouTamanho() {
+            if (window.innerWidth >= 768) {
+                itens.style.display = 'block'
+            }
+            else {
+                itens.style.display = 'none'
+            }
+        }
 
+        function clickMenu() {
+            if (itens.style.display == 'block') {
+                itens.style.display = 'none'
+            }
+            else {
+                itens.style.display = 'block'
+            }
+        }
+    </script>
     
 </body>
 </html>

@@ -36,7 +36,9 @@ menu {
     display: flex;
     flex-flow: row wrap;
     justify-content: space-between;
-    margin: 0px auto -28px auto;
+    margin: 0px auto -20px auto;
+    background-color: #a6735638;
+    border-radius: 12px;
 
     /*
     margin-top: 0px;
@@ -69,6 +71,10 @@ menu > li > a:hover {
     color: rgb(129, 129, 129);
 }
 
+span#burguer {
+    color: white;
+    cursor: pointer;
+}
 
 header {
     background-color: var(--cor-header);
@@ -225,4 +231,36 @@ article.Tech h1 {
 
 .ref > ol > ul {
     margin-bottom: 25px;
+}
+
+main > article.first > div.foto {
+    margin: auto;
+    position: relative;
+    height: 213px;
+    width: 320px;
+    background-color: rgb(212, 200, 184);
+    
+}
+
+main > article.first > div.foto > picture {
+    position: absolute;
+    height: 250px;
+    width: 90%;
+}
+
+div.vid {
+    background-color: #5a1422;
+    margin: 0px -19px -50px -26px;
+    padding: 20px;
+    padding-bottom: 57.5%;
+    position: relative;
+    
+}
+
+div.vid > iframe {
+    top: 5%;
+    left: 5%;
+    position: absolute;
+    width: 90%;
+    height: 90%;
 }
