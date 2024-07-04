@@ -1,16 +1,151 @@
 @charset "UTF-8";
 
+/*
+Pequenas Telas: até 600px;
+
+Celular: De 600px até 768;
+
+Tablet: de 768 a 992px;
+
+Desktop: de 992 a 1200 px;
+
+Grandes Telas: Acima de 1200px;
+*/
+
+:root {
+    --cor-header: #260209;
+    --cor-main: #400211b9;
+    --cor-section: #ae81ee79;
+    --cor-article: #F2BC8D;
+    --cor-footer: #A67356;
+    --cor-listas: #ffe4c4;
+    --fonte001: "Playwrite NG Modern", cursive;
+    --font002: "Modern Antiqua", serif;
+}
+
 @media screen and (max-width: 428px) {
     menu {
         display: flow-root;
         margin: 0px auto -15px auto;
-    
+
         /*
         margin-top: 0px;
         margin-left: auto;
         margin-bottom: -28px;
         margin-right: auto;
         */
-    
+
     }
 }
+
+@media screen and (min-width: 600px) and (max-width: 768px) {
+
+    body {
+        background-image: url(../imagens/tecnology004.jpg);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-attachment: fixed;
+    }
+
+    header {
+        background-color: #242d35ad;
+        max-width: 560px;
+        margin: 0px auto 0px auto;
+        border-bottom-left-radius: 25px;
+        border-bottom-right-radius: 25px;
+    }
+
+    header h1 {
+        max-width: 400px;
+        color: #b40e2a;
+    }
+
+    main {
+        max-width: 525px;
+    }
+
+    menu {
+        margin: 10px auto 10px 10px;
+        text-align: left;
+        max-width: 320px;
+        background-color: rgba(54, 46, 34, 0.37);
+    }
+
+    menu > li:hover {
+        background-color: #c4886538;
+        color: white;
+
+    }
+}
+
+@media screen and (min-width: 768px) and (max-width: 992px) {
+    body {
+        background-image: url(../imagens/tecnology005.jpg);
+        background-position: top center;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+
+    header {
+        background-color: rgba(48, 48, 102, 0.842);
+    }
+
+    header h1 {
+        max-width: 480px;
+    }
+
+    main {
+        max-width: 625px;
+    }
+
+    menu {
+        max-width: 350px;
+        margin: 10px auto 0px 12px;
+        background-color: rgba(110, 110, 233, 0.226);
+        color: white;
+    }
+
+    menu > li:hover {
+        background-color: rgba(0, 0, 255, 0.356);
+    }
+
+    p {
+        font-size: 18px;
+    }
+}
+
+@media screen and (min-width: 992px) {
+    body {
+        background-image: url(../imagens/tecnology001.jpg);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    
+    header {
+        background-color: #672aec73;
+    }
+
+    header h1 {
+        max-width: 525px;
+    }
+
+    menu { 
+        max-width: 460px;
+        margin: 10px 0px 10px 0px;
+    }
+
+    main {
+        max-width: 700px;
+    }
+
+    p {
+        font-size: 19px;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        line-height: 45px;
+    }
+
+}
+
+
