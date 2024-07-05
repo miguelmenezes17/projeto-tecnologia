@@ -77,6 +77,14 @@ Grandes Telas: Acima de 1200px;
         color: white;
 
     }
+
+    main > article.first > div.foto {
+        margin: auto;
+        position: relative;
+        height: 280px;
+        width: 420px;
+        background-color: rgb(212, 200, 184);
+    }
 }
 
 @media screen and (min-width: 768px) and (max-width: 992px) {
@@ -113,6 +121,20 @@ Grandes Telas: Acima de 1200px;
     p {
         font-size: 18px;
     }
+
+    main > article.first > div.foto {
+        margin: auto;
+        position: relative;
+        height: 407px;
+        width: 610px;
+        background-color: rgb(212, 200, 184);  
+    }
+
+    main > article.first > div.foto > picture {
+        position: absolute;
+        height: 260px;
+        width: 90%;
+    }
 }
 
 @media screen and (min-width: 992px) {
@@ -144,6 +166,14 @@ Grandes Telas: Acima de 1200px;
         font-size: 19px;
         font-family: Georgia, 'Times New Roman', Times, serif;
         line-height: 45px;
+    }
+
+    main > article.first > div.foto {
+        margin: auto;
+        position: relative;
+        height: 434px;
+        width: 650px;
+        background-color: rgb(212, 200, 184);  
     }
 
 }
