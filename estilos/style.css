@@ -34,7 +34,7 @@ body {
 
 menu {
     display: flex;
-    flex-flow: row wrap;
+    flex-flow: column wrap;
     justify-content: space-between;
     margin: 0px auto -20px auto;
     background-color: #a6735638;
