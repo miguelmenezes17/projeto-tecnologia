@@ -54,6 +54,7 @@ Grandes Telas: Acima de 1200px;
         margin: 0px auto 0px auto;
         border-bottom-left-radius: 25px;
         border-bottom-right-radius: 25px;
+        box-shadow: 3px 1px 3px rgba(0, 0, 0, 0.404);
     }
 
     header h1 {
@@ -97,6 +98,11 @@ Grandes Telas: Acima de 1200px;
 
     header {
         background-color: rgba(48, 48, 102, 0.842);
+        max-width: 680px;
+        margin: 0px auto 0px auto;
+        border-bottom-left-radius: 25px;
+        border-bottom-right-radius: 25px;
+        box-shadow: 3px 1px 3px rgba(0, 0, 0, 0.404);
     }
 
     header h1 {
@@ -147,6 +153,11 @@ Grandes Telas: Acima de 1200px;
     
     header {
         background-color: #672aec73;
+        max-width: 780px;
+        margin: 0px auto 0px auto;
+        border-bottom-left-radius: 25px;
+        border-bottom-right-radius: 25px;
+        box-shadow: 3px 1px 3px rgba(0, 0, 0, 0.404);
     }
 
     header h1 {
